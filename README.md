@@ -1,26 +1,6 @@
-# C++ Programming Language | VS Code
+# AMAOEd Compouter Programming
+## Week 13 - Laboratory Exercise 12
 
-This repository contains a development environment for Visual Studio code to be used by C++ Programming Language of AMA Online Education.
-
-**Table of Contents**
-
-- [Getting Started](docs/getting-started/README.md)
-  - [Dev Container](docs/getting-started/dev-container/README.md)
-    - [Installing the Pre-requisites](docs/getting-started/dev-container/README.md#installing-the-pre-requisites)
-      - [Windows](docs/getting-started/dev-container/windows.md)
-      - [macOS](docs/getting-started/dev-container/osx.md)
-      - [Linux](docs/getting-started/dev-container/linux.md)
-    - [Configuring the Visual Studio Code](docs/getting-started/dev-container/README.md#configuring-the-visual-studio-code)
-    - [Cloning the Git Repository](docs/getting-started/dev-container/README.md#cloning-the-git-repository)
-    - [Opening in Dev Container](docs/getting-started/dev-container/README.md#opening-in-dev-container)
-  - [Bare Metal](docs/getting-started/bare-metal/README.md)
-    - [Installing the Pre-requisites](docs/getting-started/bare-metal/README.md#installing-the-pre-requisites)
-      - [Windows](docs/getting-started/bare-metal/windows.md)
-      - [macOS](docs/getting-started/bare-metal/osx.md)
-      - [Linux](docs/getting-started/bare-metal/linux.md)
-    - [Configuring the Visual Studio Code](docs/getting-started/bare-metal/README.md#configuring-the-visual-studio-code)
-    - [Cloning the Git Repository](docs/getting-started/bare-metal/README.md#cloning-the-git-repository)
-    - [Opening in Bare Metal](docs/getting-started/bare-metal/README.md#opening-in-bare-metal)
-- [Maintenace](docs/maintenance/README.md)
-  - [Updating the CMake Version](docs/maintenance/README.md#updating-the-cmake-version)
-  - [Updating the Dev Container Image](docs/maintenance/README.md#updating-the-dev-container-image)
+1.	Write a program that will change the value of an integer variable with initial value of 654,321 to 27,946 without directly assigning a value to the variable. You cannot create any pointersor references in the main function.
+2.	Write a program that will display the address of a float variable and another variable that shares the same address and value as the first variable. Do not initialize the first variable.
+3.	Write a program that will display the words “This is it!” from a variablewithout assigning any characters to the variable. You cannot use cout << “This is it!” << endl; or any variants of it.
