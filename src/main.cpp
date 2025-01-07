@@ -24,7 +24,7 @@ int main()
   
   mutateINT(&n, 27946);
 
-  cout << "int variable initialized value: " << n << endl << endl;
+  cout << "int variable value after mutation: " << n << endl << endl;
 
   // ********************** DO NOT CHANGE **********************
   // Print a new line and ask user for any key before exiting
