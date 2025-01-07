@@ -13,8 +13,13 @@ using namespace std;
 
 int main()
 {
+  string var;
+  string* varPtr = &var;
 
-  cout << "Hello World!" << endl;
+  *varPtr = "This is it!";
+
+
+  cout << var << endl;
 
   // ********************** DO NOT CHANGE **********************
   // Print a new line and ask user for any key before exiting
